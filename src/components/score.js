@@ -18,14 +18,7 @@ class Score extends Component {
 
                                 let userScore = 0;
 
-                                questions.map(question => {
-
-                                    userScore += question['score'];
-
-
-
-
-                                })
+                                questions.map(question => userScore += question['score']);
 
                                 return userScore;
 

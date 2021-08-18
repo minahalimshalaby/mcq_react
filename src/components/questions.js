@@ -5,10 +5,7 @@ import { getQuestions } from '../services/fakeQuestionService';
 
 import Checked from './checked';
 
-import Score from './score';
 
-
-import _ from 'lodash';
 
 
 
@@ -144,6 +141,7 @@ class Questions extends Component {
 
                     }
 
+                    return null;
 
               });
 
